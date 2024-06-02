@@ -1,0 +1,3 @@
+(library
+ (name obelisk_lib)
+ (libraries core))

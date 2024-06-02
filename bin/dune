@@ -1,0 +1,4 @@
+(executable
+ (public_name obelisk)
+ (name obelisk_bin)
+ (libraries core core_unix.command_unix obelisk_lib))
