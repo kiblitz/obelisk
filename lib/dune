@@ -1,3 +1,5 @@
 (library
  (name obelisk_lib)
- (libraries core))
+ (libraries async core core_unix)
+ (preprocess
+  (pps ppx_jane)))

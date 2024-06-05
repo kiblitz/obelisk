@@ -1,1 +1,3 @@
-./_build/default/bin/obelisk_bin.exe
+#!/bin/bash
+
+./_build/default/bin/obelisk_bin.exe $@
